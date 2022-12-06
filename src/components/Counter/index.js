@@ -5,11 +5,11 @@ import './index.css'
 class Counter extends Component {
   state = {count: 0}
 
-  onDecrement = () => {
+  onIncrement = () => {
     this.setState(prevState => ({count: prevState.count - 1}))
   }
 
-  onIncrement = () => {
+  onDecrement = () => {
     this.setState(prevState => ({count: prevState.count + 1}))
   }
 
